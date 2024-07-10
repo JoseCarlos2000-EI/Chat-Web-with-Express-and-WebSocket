@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel{
+    width: 50%;
+    min-height: 40vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8%;
+    box-shadow: 0.2rem 0.2rem 0.1rem rgb(137, 137, 137);
+    padding: 1rem;
+    gap: 1rem;
+}
+
+
+.send{
+    width: 80%;
+}
+.send input{
+    width: 70%;
+    border-radius: 1rem;
+    height: 1.5rem;
+}
+
+.send button{
+    width: 20%;
+    border-radius: 1rem;
+    padding: 0.2rem 0.5rem;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.chat{
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: .5rem;
+    min-height: 40vh;
+    max-height: 40vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 0 1.5rem;
+}
+
+
+.chat label{
+    width: 40%;
+    display: inline-block;
+    word-wrap: break-word;
+    background-color: rgb(7, 174, 240);
+    padding: 1rem;
+    border-radius: .5rem;
+    color: white;
+}
