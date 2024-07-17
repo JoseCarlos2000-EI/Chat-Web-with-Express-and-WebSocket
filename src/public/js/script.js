@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded",() =>{
 
-    const ws = new WebSocket('ws://localhost:3000');
+    //const ws = new WebSocket('ws://localhost:3000');
+    const ws = new WebSocket('ws://asdemobootcampv2.azurewebsites.net:3000')
 
     const input = document.querySelector('input');
     const btn = document.querySelector('button');
